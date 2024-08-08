@@ -1,0 +1,110 @@
+.detailpost_nav {
+  background-color: #e6e6e6;
+  height: 950px;
+}
+
+.detailpost {
+  display: flex;
+  width: 1160;
+  height: 921px;
+  position: relative;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.detailpost_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.post_profile {
+  width: 580px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.post_profile > button:last-child {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 0px;
+}
+
+.post_profile > button:nth-child(3) {
+  position: absolute;
+  top: 16px;
+  right: 55px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 0px;
+}
+
+.detailpost_main > div > img {
+  border-radius: 999px;
+}
+
+.content {
+  height: 222px;
+  width: 580px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.comment {
+  padding: 16px;
+  box-sizing: border-box;
+  max-height: 430px;
+  overflow-y: auto;
+}
+
+.comment > p {
+  margin-bottom: 30px;
+}
+
+.comment_list {
+  margin-bottom: 24px;
+}
+.comment_list > div {
+  display: flex;
+  gap: 16px;
+}
+
+.comment_list > div > div > p:first-of-type {
+  margin-bottom: 8px;
+}
+
+.comment_list > div > img {
+  border-radius: 999px;
+}
+
+.write_comment > form {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  gap: 16px;
+}
+
+.write_comment > form > textarea {
+  width: 420px;
+  height: 70px;
+  outline: none;
+}
+
+.write_comment > form > button {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #58afff;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}

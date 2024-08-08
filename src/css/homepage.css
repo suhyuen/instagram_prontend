@@ -1,0 +1,119 @@
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage {
+  width: 1920px;
+  height: 936px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  width: 100vh;
+}
+
+.login_list {
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  width: 474px;
+  height: 605px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_list > div > button {
+  background-color: #58afff;
+  border-radius: 8px;
+  border: 0px;
+  width: 350px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login_list > div:first-of-type {
+  font-family: "IrishGrover";
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.idpw {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.idpw > p {
+  font-size: 14px;
+}
+
+.idpw > input {
+  width: 350px;
+  height: 40px;
+}
+
+.login_list > div:nth-child(4) {
+  margin-top: 8px;
+  margin-bottom: 46px;
+}
+
+.login_list > div:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.line {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  width: 474px;
+  margin-bottom: 16px;
+}
+.line::before,
+.line::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 16px;
+}
+
+.login_list > div:last-child {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.imag1 {
+  position: relative;
+  z-index: 2;
+  background-color: black;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.imag2 {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  z-index: 1;
+  background-color: black;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
