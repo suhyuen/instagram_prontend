@@ -1,0 +1,133 @@
+.changeprofile {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.changeprofilee_first {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  overflow-y: auto;
+}
+.chageprofile_main {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chageprofile_main > div:first-of-type {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+  width: 768px;
+}
+
+.changepicture {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  margin-top: 60px;
+  width: 768px;
+  height: 100px;
+  padding: 10px 38px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #e6e6e6;
+  position: relative;
+}
+
+.changepicture > img {
+  border-radius: 999px;
+}
+
+.changepicture > div > p {
+  padding: 16px;
+}
+
+.changepicture > div > p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.changepicture > button {
+  position: absolute;
+  right: 50px;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #58afff;
+  border: 0px;
+}
+
+.changeintroduce {
+  width: 768px;
+  margin-top: 70px;
+}
+
+.changeintroduce > div {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.changeintroduce > textarea {
+  width: 768px;
+  height: 157px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.changemanwoman {
+  width: 768px;
+  margin-top: 70px;
+}
+
+.changemanwoman > div {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.changemanwoman > select {
+  width: 768px;
+  height: 72px;
+  font-size: 20px;
+  padding: 16px 23px;
+  border-radius: 16px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.information_form > button {
+  width: 376px;
+  height: 57px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #58afff;
+  margin-top: 100px;
+  margin-left: 410px;
+  border: 0px;
+  margin-bottom: 100px;
+}
+
+.changeprofile_end {
+  width: 1180px;
+  height: 172px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-top: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.changeprofile_end > div {
+  margin-bottom: 30px;
+  font-size: 14px;
+  margin-top: 100px;
+}

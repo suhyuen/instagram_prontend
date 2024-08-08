@@ -1,0 +1,56 @@
+.alertbar {
+  width: 400px;
+}
+
+.alertmenu > p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 33px;
+  margin-left: 8px;
+  margin-bottom: 24px;
+}
+
+.alertfollow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.alertfollow > img {
+  border-radius: 999px;
+  min-height: 36px;
+  min-width: 36px;
+  white-space: nowrap;
+  margin-left: 16px;
+}
+
+.alertfollow > button {
+  min-width: 68px;
+  min-height: 29px;
+  border-radius: 8px;
+  border: 0px;
+  background-color: #58afff;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+.alertheart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.alertheart > img {
+  border-radius: 999px;
+  min-height: 36px;
+  min-width: 36px;
+  white-space: nowrap;
+  margin-left: 16px;
+}
+
+.alertheart > p {
+  margin-right: 8px;
+}

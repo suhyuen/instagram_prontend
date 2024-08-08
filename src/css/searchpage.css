@@ -1,0 +1,77 @@
+.header {
+  padding-left: 24px;
+  width: 400px;
+  height: 953px;
+  display: flex;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 0px 16px 16px 0px;
+}
+
+.emozs {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  border-right: 1px solid rgb(0, 0, 0, 0.3);
+  height: 953px;
+  padding-right: 33px;
+}
+
+.emozs > img {
+  cursor: pointer;
+}
+
+.emozs > img:first-child {
+  margin-bottom: 11px;
+  margin-top: 40px;
+}
+.emozs > img:nth-child(6) {
+  border-radius: 999px;
+}
+
+.emozs > img:last-of-type {
+  margin-top: 360px;
+}
+
+.searchinput {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+  padding-bottom: 30px;
+  width: 279px;
+}
+
+.searchinput > p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 33px;
+  margin-bottom: 17px;
+  padding: 0 8px;
+}
+
+.searchinput > input {
+  width: 250px;
+  height: 30px;
+  background-color: #e6e6e6;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-left: 8px;
+  padding-left: 8px;
+}
+.searchprofile {
+  overflow-y: auto;
+  max-height: 800px;
+}
+.searchprofile > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.searchprofile > div > p {
+  font-size: 14px;
+}
+
+.searchprofile > div > img {
+  border-radius: 999px;
+}
